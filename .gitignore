@@ -1,0 +1,24 @@
+# Xcode derived data & user settings
+xcuserdata/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+DerivedData/
+
+# Build artifacts
+build/
+*.ipa
+*.dSYM
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+*.resolved
+
+# macOS
+.DS_Store
+.AppleDouble
+
+# Secrets — never commit tokens or API keys
+Secrets.swift
+secrets.json
+*.pem

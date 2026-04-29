@@ -1,0 +1,68 @@
+{
+  "screenId": "home",
+  "title": "Good Morning",
+  "components": [
+    {
+      "id": "c1",
+      "type": "hero_banner",
+      "data": {
+        "imageUrl": "https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=800",
+        "headline": "Tuesday Digest",
+        "subtitle": "5 things to know today",
+        "deeplink": "facet://screen/today"
+      }
+    },
+    {
+      "id": "c2",
+      "type": "horizontal_carousel",
+      "data": {
+        "title": "Browse Topics",
+        "items": [
+          { "id": "t1", "label": "Tech",    "iconName": "cpu",            "deeplink": "facet://category/tech" },
+          { "id": "t2", "label": "Health",  "iconName": "heart",          "deeplink": "facet://category/health" },
+          { "id": "t3", "label": "Science", "iconName": "atom",           "deeplink": "facet://category/science" },
+          { "id": "t4", "label": "Design",  "iconName": "paintpalette",   "deeplink": "facet://category/design" },
+          { "id": "t5", "label": "Finance", "iconName": "chart.bar",      "deeplink": "facet://category/finance" }
+        ]
+      }
+    },
+    {
+      "id": "c3",
+      "type": "card_list",
+      "data": {
+        "title": "Featured",
+        "cards": [
+          {
+            "id": "a1",
+            "title": "The Rise of Server-Driven UI",
+            "body": "How companies like Airbnb and DoorDash ship UI changes without App Store updates, saving weeks of review cycles.",
+            "imageUrl": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=300",
+            "deeplink": "facet://article/a1"
+          },
+          {
+            "id": "a2",
+            "title": "SwiftUI Performance Tips for 2025",
+            "body": "Practical techniques to keep your views fast, your animations smooth, and your users happy.",
+            "imageUrl": "https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?w=300",
+            "deeplink": "facet://article/a2"
+          },
+          {
+            "id": "a3",
+            "title": "Clean Architecture in Practice",
+            "body": "A real-world walkthrough of applying SOLID principles to a production iOS codebase.",
+            "imageUrl": null,
+            "deeplink": "facet://article/a3"
+          }
+        ]
+      }
+    },
+    {
+      "id": "c4",
+      "type": "quote_block",
+      "data": {
+        "quote": "Design is not just what it looks like and feels like. Design is how it works.",
+        "author": "Steve Jobs"
+      }
+    }
+  ]
+}
